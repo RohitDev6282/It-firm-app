@@ -3,7 +3,6 @@ import 'package:aanaxagorasr_app/ui/bottomFooter.dart';
 import 'package:carousel_slider/carousel_options.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:aanaxagorasr_app/ui/Career.dart';
 import 'package:aanaxagorasr_app/ui/Portfolio.dart';
 import 'package:aanaxagorasr_app/ui/blog/Blog.dart';
 import 'package:aanaxagorasr_app/ui/Services.dart';
@@ -409,10 +408,10 @@ class _HomePageState extends State<HomePage> {
                         color: Colors.blue),
                     child: InkWell(
                         onTap: () {
-                          Navigator.push(
-                              context,
-                              new MaterialPageRoute(
-                                  builder: (context) => new Career()));
+                          // Navigator.push(
+                          //     context,
+                          //     new MaterialPageRoute(
+                          //         builder: (context) => new Career()));
                         },
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
